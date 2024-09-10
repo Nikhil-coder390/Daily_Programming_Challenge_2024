@@ -82,5 +82,6 @@ class SortArray{
         Result obj = new Result();
         obj.sortArrays(arr);
         System.out.println("Sorted Array : " + arr);
+        input.close();
     }
 }
